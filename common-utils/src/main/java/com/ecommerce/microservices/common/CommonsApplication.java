@@ -1,13 +1,13 @@
 package com.ecommerce.microservices.common;
 
-/**
- * Hello world!
- *
- */
-public class CommonsApplication
-{
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
-    }
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class CommonsApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(CommonsApplication.class, args);
+	}
+
 }
